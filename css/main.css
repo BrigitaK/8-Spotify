@@ -3,10 +3,12 @@ body{
 }
 
 .container{
+    margin-top: 60px;
     display: inline-block;
     float: left;
     width: 600px;
     margin-left: calc(50% - 300px);
+    border: 2px solid grey;
 
 }
     .header{
@@ -76,6 +78,7 @@ body{
             left: 50%;
             transform: translate(-50%, -50%);
          }
+
     .main{
         display: inline-block;
         width: 600px;
@@ -140,15 +143,25 @@ body{
             width: 400px;
             margin-left: calc(50% - 20px);
         }
-        .first1{
+
+    .row{
+        margin-top: 10px;
+    }
+        .row > input{
             display: inline-block;
             float: left;
+            margin-top: 6px;
+            background-color: green;
            
             }
     
        .first{
         display: inline-block;
         float: left;
+        width: 50%;
+        color: #1DB954;
+        text-align: left;
+        padding: 2px 3px;
         
         }
       
@@ -156,6 +169,13 @@ body{
         .second{
         display: inline-block;
         float: right;
+        width: 40%;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: -18px;
+        word-spacing: 3px;
             border: 1px solid grey;
             padding: 0px;
             border-radius: 20px;
@@ -185,4 +205,5 @@ body{
         }
         .main > .last{
             border: 1px solid grey;
+            color: grey;
         }
