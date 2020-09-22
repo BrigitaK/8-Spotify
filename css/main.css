@@ -1,6 +1,14 @@
 body{
     background-color: #938cfc;
 }
+
+.container{
+    display: inline-block;
+    float: left;
+    width: 600px;
+    margin-left: calc(50% - 300px);
+
+}
     .header{
         display: inline-block;
         float: left;
@@ -74,6 +82,7 @@ body{
         padding-top: 15px;
         margin-left: calc(50% - 300px);
         background-color:white;
+        padding: 15px 100px;
     }
         .main  .btn{
             display: inline-block;
@@ -98,14 +107,25 @@ body{
         }
         .number{
             border: 1px solid grey;
-
         }
-        .span{
-            display: inline-block;
+        .line{
+            border-top: 1px solid  #ccc;
+            display: block;
+            text-align: center;
+            line-height: 1px;
+            margin: 15px 0;
+            position: relative;
             width: 400px;
             margin-left: calc(50% - 200px);
-            border-top: 1px solid grey;
-            text-align: center;
+        }
+        .span{
+            background-color: #fff;
+            font-size: 10px;
+            font-weight: normal;
+            letter-spacing: 1px;
+            padding: 0 20px;
+            
+            text-transform: uppercase;
 
         }
         .main  .input{
@@ -120,15 +140,22 @@ body{
             width: 400px;
             margin-left: calc(50% - 20px);
         }
-       .main .first{
+        .first1{
+            display: inline-block;
+            float: left;
+           
+            }
+    
+       .first{
         display: inline-block;
-        float:left;
-        background-color: red;
+        float: left;
+        
         }
+      
 
-       .second{
-           display: inline-block;
-           float: right;
+        .second{
+        display: inline-block;
+        float: right;
             border: 1px solid grey;
             padding: 0px;
             border-radius: 20px;
